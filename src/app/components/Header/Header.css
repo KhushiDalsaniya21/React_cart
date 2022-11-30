@@ -1,0 +1,19 @@
+.nav-link active{
+    position: absolute;
+    color: #0000;
+   
+}
+.navbar-brand{
+    margin:400px;
+   
+} 
+.navbar-nav{
+    margin-left: 530px;
+    
+}
+.cart{
+margin-left:300px;
+}
+
+
+
