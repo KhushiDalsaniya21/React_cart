@@ -6,6 +6,7 @@ import PrivateLayout from "./app/layouts/PrivateLayout";
 import HomeContainer from "./app/portal/Home";
 import About from "./app/portal/Home/component/About/about";
 import Contact from "./app/portal/Home/component/Contact/contact";
+import Men from "./app/portal/Home/component/Men";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<PrivateLayout />}>
             <Route path="/" element={<HomeContainer />} />
+            <Route path="/Men" element={<Men />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
           </Route>

@@ -27,63 +27,15 @@ function Header() {
                   Home
                 </NavLink>
               </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/Men">
                   Men
-                </a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Sport Shoes
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Formal Shoes
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Sneakers
-                    </a>
-                  </li>
-                </ul>
+                </NavLink>
               </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="/about"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/Women">
                   Women
-                </a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Sport Shoes
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Heels
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Flats
-                    </a>
-                  </li>
-                </ul>
+                </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink className="nav-link" to="/about">
