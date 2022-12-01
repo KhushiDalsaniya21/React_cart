@@ -1,10 +1,9 @@
 import React from "react";
-import "./CardContainer.css";
 
-function CardContainer(props) {
+function Mencategory(props) {
   return (
     <>
-      <div className="col-2">
+      <div className="col-4">
         <div class="card bg-dark text-white">
           <img src={props.image} class="card-img" alt="..." />
           <div class="card-img-overlay">
@@ -15,4 +14,4 @@ function CardContainer(props) {
     </>
   );
 }
-export default CardContainer;
+export default Mencategory;

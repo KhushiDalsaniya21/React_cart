@@ -73,4 +73,17 @@ const product = [
   },
 ];
 
-export default { category, product };
+const mencate = [
+  {
+    id: 1,
+    img: arrival7,
+    name: "Formal Shoes",
+  },
+  {
+    id: 2,
+    img: arrival1,
+    name: "Nike Shoes",
+  },
+];
+
+export default { category, product, mencate };

@@ -23,7 +23,7 @@ function Footer() {
                 </div>
                 <div className="col-md-3">
                   <div className="infos">
-                    <h3>Information</h3>
+                    <h3>INFORMATION</h3>
                     <ul>
                       <li>
                         <a href="#">Our Stores</a>
@@ -51,7 +51,7 @@ function Footer() {
                 </div>
                 <div className="col-md-3">
                   <div className="account">
-                    <h3>My Account</h3>
+                    <h3>MY ACCOUNT</h3>
                     <ul>
                       <li>
                         <a href="#">My Account</a>
@@ -79,7 +79,7 @@ function Footer() {
                 </div>
                 <div className="col-md-3">
                   <div className="gettouch">
-                    <h3>Get in Touch with us</h3>
+                    <h3>GET IN TOUCH WITH US</h3>
                     <p>
                       <i className="fa fa-home"></i> Cosys Infotech LLP
                     </p>
